@@ -1,5 +1,4 @@
 {
   "test": "testing",
-  "variable": "${vars.size-selected}",
-  "error": "${vars.not-real}"
+  "variable": "${vars.size-selected}"
 }
