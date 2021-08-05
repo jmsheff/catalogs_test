@@ -1,3 +1,4 @@
 {
-  "test": "testing"
+  "test": "testing",
+  "variable": "${vars.size-selected}"
 }
