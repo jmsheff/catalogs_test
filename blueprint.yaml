@@ -8,4 +8,4 @@ resources:
     tags:
     -
      key: 'atos-provisioning-stack-id'
-     value: '${env.stack_id}'
+     value: '${env.stack-id}'
