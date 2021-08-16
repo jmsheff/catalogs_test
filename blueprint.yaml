@@ -6,6 +6,5 @@ resources:
     image: 'ubuntu'
     flavor: '${vars.size-selected}'
     tags:
-    -
-     key: 'atos-provisioning-stack-id'
-     value: '${env.stack-id}'
+      - key: 'atos-provisioning-stack-id'
+        value: '${env.stack-id}'
