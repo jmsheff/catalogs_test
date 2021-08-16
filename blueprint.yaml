@@ -1,1 +1,11 @@
 name: Example blueprint
+formatVersion: 1
+resources: 
+  virtualmachine1:
+    type: Cloud.Machine
+    image: 'ubuntu'
+    flavor: '${vars.size-selected}'
+    tags:
+    -
+     key: 'atos-provisioning-stack-id'
+     value: '${env.stack_id}'
